@@ -240,7 +240,6 @@ ORDER BY total_revenue DESC;
 | Ticket Machine | 80,020.80 | 13,292 | 6.02 |
 | HVV Switch App | 79,209.60 | 13,244 | 5.98 |
 
-![Sales Channel Analysis](sales_channel_analysis.png)
 
 ### Key Insight
 
@@ -290,7 +289,6 @@ LIMIT 5;
 | U5 | 72 | 187 | 436.80 | 2.34 |
 | 11 | 24 | 158 | 434.40 | 2.75 |
 
-![Route Revenue Analysis](route_revenue_analysis.png)
 
 ### Key Insight
 
@@ -337,7 +335,6 @@ The query returns **30 daily observations** from **18 July 2026 to 16 August 202
 - **Highest daily revenue:** €8,504.40 on 31 July 2026
 - **Lowest daily revenue:** €7,652.40 on 15 August 2026
 
-![Running Total Revenue](running_total_revenue.png)
 
 ### Key Insight
 
@@ -422,13 +419,11 @@ Cumulative validation count
 .
 ├── README.md
 ├── sql/
-│   ├── 01_data_quality.sql
-│   ├── 02_data_transformation.sql
-│   ├── 03_business_analysis.sql
-│   └── 04_window_functions.sql
-├── sales_channel_analysis.png
-├── route_revenue_analysis.png
-└── running_total_revenue.png
+    ├── 01_data_quality.sql
+    ├── 02_data_transformation.sql
+    ├── 03_business_analysis.sql
+    └── 04_window_functions.sql
+
 ```
 
 ---
