@@ -30,9 +30,7 @@ Data transformation
         |
         v
 Business analysis
-        |
-        v
-Window function analysis
+
 ```
 
 The project focuses on both technical SQL skills and business-oriented analysis of public transport data.
@@ -399,34 +397,6 @@ Cumulative validation count
 
 ---
 
-## Data & Tools
-
-**Data source:** [GTFS.de](https://gtfs.de/)
-
-**Query engine:** DuckDB / MotherDuck
-
-**Database:** `data_public_transport_de`
-
-**Environment:** Visual Studio Code
-
-**Version control:** Git / GitHub
-
----
-
-## Project Structure
-
-```text
-.
-├── README.md
-├── sql/
-    ├── 01_data_quality.sql
-    ├── 02_data_transformation.sql
-    ├── 03_business_analysis.sql
-    └── 04_window_functions.sql
-
-```
-
----
 
 ## Conclusion
 
