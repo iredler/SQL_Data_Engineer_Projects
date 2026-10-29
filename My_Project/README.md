@@ -30,9 +30,7 @@ Data transformation
         |
         v
 Business analysis
-        |
-        v
-Window function analysis
+
 ```
 
 The project focuses on both technical SQL skills and business-oriented analysis of public transport data.
@@ -240,7 +238,6 @@ ORDER BY total_revenue DESC;
 | Ticket Machine | 80,020.80 | 13,292 | 6.02 |
 | HVV Switch App | 79,209.60 | 13,244 | 5.98 |
 
-![Sales Channel Analysis](sales_channel_analysis.png)
 
 ### Key Insight
 
@@ -290,7 +287,6 @@ LIMIT 5;
 | U5 | 72 | 187 | 436.80 | 2.34 |
 | 11 | 24 | 158 | 434.40 | 2.75 |
 
-![Route Revenue Analysis](route_revenue_analysis.png)
 
 ### Key Insight
 
@@ -337,7 +333,6 @@ The query returns **30 daily observations** from **18 July 2026 to 16 August 202
 - **Highest daily revenue:** €8,504.40 on 31 July 2026
 - **Lowest daily revenue:** €7,652.40 on 15 August 2026
 
-![Running Total Revenue](running_total_revenue.png)
 
 ### Key Insight
 
@@ -402,36 +397,6 @@ Cumulative validation count
 
 ---
 
-## Data & Tools
-
-**Data source:** [GTFS.de](https://gtfs.de/)
-
-**Query engine:** DuckDB / MotherDuck
-
-**Database:** `data_public_transport_de`
-
-**Environment:** Visual Studio Code
-
-**Version control:** Git / GitHub
-
----
-
-## Project Structure
-
-```text
-.
-├── README.md
-├── sql/
-│   ├── 01_data_quality.sql
-│   ├── 02_data_transformation.sql
-│   ├── 03_business_analysis.sql
-│   └── 04_window_functions.sql
-├── sales_channel_analysis.png
-├── route_revenue_analysis.png
-└── running_total_revenue.png
-```
-
----
 
 ## Conclusion
 
